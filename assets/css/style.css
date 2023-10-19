@@ -239,6 +239,30 @@ a:hover {
   transition: all 500ms ease;
 }
 
+
+/* GitHub */
+.socials a[href*="github.com"] .bi-github {
+  color: #211F1F; /* Actual GitHub logo color */
+}
+
+/* Skype */
+.socials a[href*="skype.com"] .bi-skype {
+  color: #00AFF0; /* Actual Skype logo color */
+}
+
+/* LinkedIn */
+.socials a[href*="linkedin.com"] .bi-linkedin {
+  color: #0077B5; /* Actual LinkedIn logo color */
+}
+
+/* WhatsApp */
+.socials a[href*="wa.me"] .bi-whatsapp {
+  color: #25D366; /* Actual WhatsApp logo color */
+}
+
+
+
+
 /*------/ Ul resect /------*/
 .ul-resect,
 .widget-tags ul,
