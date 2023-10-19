@@ -762,6 +762,7 @@ a:hover {
   color: #ffffff;
   font-weight: 600;
   font-size: 3rem;
+  text-align: left;
 }
 
 @media (min-width: 768px) {
@@ -773,6 +774,7 @@ a:hover {
 .hero .hero-subtitle {
   font-size: 1.5rem;
   font-weight: 600;
+  text-align: left;
 }
 
 @media (min-width: 768px) {
