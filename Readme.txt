@@ -1,6 +1,5 @@
-Thanks for downloading this template!
+Thanks for viewing.
 
-Template Name: DevFolio
-Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Profile Name: MyPortfolio
+Live URL:
+Author: Al Faysal Bin Asad
