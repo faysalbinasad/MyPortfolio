@@ -782,23 +782,48 @@ a:hover {
   opacity: 0.9;
 }
 
+
+/* .hero-title-1 {
+  margin-top: 100px; /* Adjust the value as needed to move the text down */
+  /* margin-right: 658px; */
+}, */
+.hero-title {
+  margin-top: 500px; /* Adjust the value as needed to move the text down */
+},
+.hero-subtitle {
+  margin-top: 500px; /* Adjust the value as needed to move the text down */
+}
+
+
+/* Import the Google Font */
+@import url('https://fonts.googleapis.com/css?family=Font+Name');
+
+/* .hero .hero-title-1 {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 2rem;
+  font-family: 'Font Name', sans-serif;
+  text-align: center;
+} */
+
 .hero .hero-title {
   color: #ffffff;
   font-weight: 600;
   font-size: 3rem;
-  /* text-align: left; */
+  font-family: 'Font Name', sans-serif;
+  text-align: left;
 }
 
 @media (min-width: 768px) {
   .hero .hero-title {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
   }
 }
 
 .hero .hero-subtitle {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
-  /* text-align: left; */
+  text-align: left;
 }
 
 @media (min-width: 768px) {
