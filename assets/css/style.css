@@ -1285,7 +1285,7 @@ a:hover {
 }
 
 /*--------------------------------------------------------------
-# Blog
+# Blog Start
 --------------------------------------------------------------*/
 @media (min-width: 767px) {
   .card-blog {
@@ -1343,6 +1343,95 @@ a:hover {
   display: inline-block;
   float: right;
 }
+
+/*--------------------------------------------------------------
+# Blog End
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# Education Start
+--------------------------------------------------------------*/
+@media (min-width: 767px) {
+  .card-blog-1 {
+    margin-bottom: 3rem;
+  }
+}
+
+.card-blog-1 .card-body {
+  position: relative;
+}
+
+.card-blog-1 .card-category-box {
+  position: absolute;
+  text-align: center;
+  top: -16px;
+  left: 15px;
+  right: 15px;
+  line-height: 25px;
+  overflow: hidden;
+}
+
+.card-blog-1 .card-category {
+  display: inline-block;
+  color: #fff;
+  padding: 0 15px 5px;
+  overflow: hidden;
+  background-color: #030000;
+  border-radius: 4px;
+  margin-top: 20px;
+  
+}
+
+
+.card-blog-1 .card-category .category {
+  color: #fff;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.1px;
+  margin-bottom: 0;
+}
+
+.card-blog-1 .card-title {
+  font-size: 1.3rem;
+  margin-top: 0.6rem;
+}
+
+.card-blog-1 .card-description {
+  color: #4e4e4e;
+  margin-top: 30px;
+  /* line-height: 1.8; */
+}
+.card-blog-1 .smaller-line-height {
+  line-height: 1.5; /* Reduce line height for the Year of Completion and CGPA lines */
+}
+
+.card-blog-1 .card-description strong{
+  font-weight: bold;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card-blog-1 .post-author {
+  display: inline-block;
+}
+
+.card-blog-1 .post-date {
+  color: #4e4e4e;
+  display: inline-block;
+  float: right;
+}
+
+
+/*--------------------------------------------------------------
+# Education End
+--------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
 # Blog Single
