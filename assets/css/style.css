@@ -1377,7 +1377,7 @@ a:hover {
   color: #fff;
   padding: 0 20px 5px;
   overflow: hidden;
-  background-color: #030000;
+  background-color: #4c6dc9a1;
   border-radius: 4px;
   margin-top: 30px;
   
@@ -1385,12 +1385,13 @@ a:hover {
 
 
 .card-blog-1 .card-category .category {
-  color: #fff;
+  color: #110e0e;
   display: inline-block;
-  text-transform: uppercase;
-  font-size: 0.7rem;
+  /* text-transform: uppercase; */
+  font-size: 0.9rem;
   letter-spacing: 0.1px;
   margin-bottom: 0;
+  font-weight: bold;
  
 }
 
@@ -1403,16 +1404,17 @@ a:hover {
   color: #4e4e4e;
   /* line-height: 1.8; */
   margin-top: 50px;
+  text-align: center;
 }
 .card-blog-1 .smaller-line-height-1 {
   line-height: 1.5; /* Reduce line height for the Year of Completion and CGPA lines */
-  text-align: justify;
+  text-align: center;
   margin-top: 10px;
 }
 
 .card-blog-1 .smaller-line-height-2 {
   line-height: 0.8; /* Reduce line height for the Year of Completion and CGPA lines */
-  text-align: justify;
+  text-align: center;
   margin-top: -10px;
 }
 
@@ -1437,29 +1439,165 @@ a:hover {
   float: right;
 }
 
+/* Button Section Start */
 
-/* CSS for Buttons */
-.button {
+/* CSS for Buttons (BUET) */
+.button-buet-web {
   display: inline-block;
   padding: 2px 4px;
-  background-color: #007bff;
+  background-color: #ab1f26;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
   margin-right: 10px;
 }
 
-.button:hover {
-  background-color: #0056b3;
+.button-buet-certificate {
+  display: inline-block;
+  padding: 2px 4px;
+  background-color: #196604;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.button-buet-web:hover {
+  background-color: #e74809;
+  color: #fff;
+}
+
+.button-buet-certiifcate:hover {
+  background-color: #e74809;
+  color: #fff;
 }
 
 /* Container for Buttons */
-.buttons-container {
+.buttons-container-buet{
   margin-top: 10px;
   text-align: center;
 }
 
 
+/* CSS for Buttons (BRACU) */
+
+.button-bracu-web {
+  display: inline-block;
+  padding: 2px 4px;
+  background-color: #164fcc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.button-bracu-certificate {
+  display: inline-block;
+  padding: 2px 4px;
+  background-color: #196604;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.button-bracu-web:hover {
+  background-color: #e74809;
+  color: #fff;
+}
+
+.button-bracu-certificate:hover { /* Fixed the class name here */
+  background-color: #e74809;
+  color: #fff;
+}
+
+/* Container for Buttons */
+.buttons-container-bracu {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* CSS for Buttons (GDC) */
+
+.button-gdc-web {
+  display: inline-block;
+  padding: 2px 4px;
+  background-color: #209cbb;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.button-gdc-certificate {
+  display: inline-block;
+  padding: 2px 4px;
+  background-color: #196604;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.button-gdc-web:hover {
+  background-color: #e74809;
+  color: #fff;
+}
+
+.button-gdc-certificate:hover { /* Fixed the class name here */
+  background-color: #e74809;
+  color: #fff;
+}
+
+/* Container for Buttons */
+.buttons-container-gdc {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* CSS for Buttons (KGBHS) */
+
+.button-kgbhs-web {
+  display: inline-block;
+  padding: 2px 4px;
+  background-color: #209cbb;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.button-kgbhs-certificate {
+  display: inline-block;
+  padding: 2px 4px;
+  background-color: #196604;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.button-kgbhs-web:hover {
+  background-color: #e74809;
+  color: #fff;
+}
+
+.button-kgbhs-certificate:hover { /* Fixed the class name here */
+  background-color: #e74809;
+  color: #fff;
+}
+
+/* Container for Buttons */
+.buttons-container-kgbhs {
+  margin-top: 10px;
+  text-align: center;
+}
+
+
+
+
+
+/* Button Section ENd */
 
 /*--------------------------------------------------------------
 # Education End
