@@ -1360,6 +1360,8 @@ a:hover {
 
 .card-blog-1 .card-body {
   position: relative;
+   width: 300px; /* Set your desired fixed width */
+    height: 300px; /* Set your desired fixed height */
 }
 
 .card-blog-1 .card-category-box {
@@ -1560,7 +1562,7 @@ a:hover {
 .button-kgbhs-web {
   display: inline-block;
   padding: 2px 4px;
-  background-color: #209cbb;
+  background-color: #ecc043;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
