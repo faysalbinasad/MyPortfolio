@@ -1375,11 +1375,11 @@ a:hover {
 .card-blog-1 .card-category {
   display: inline-block;
   color: #fff;
-  padding: 0 15px 5px;
+  padding: 0 20px 5px;
   overflow: hidden;
   background-color: #030000;
   border-radius: 4px;
-  margin-top: 20px;
+  margin-top: 30px;
   
 }
 
@@ -1391,6 +1391,7 @@ a:hover {
   font-size: 0.7rem;
   letter-spacing: 0.1px;
   margin-bottom: 0;
+ 
 }
 
 .card-blog-1 .card-title {
@@ -1400,11 +1401,19 @@ a:hover {
 
 .card-blog-1 .card-description {
   color: #4e4e4e;
-  margin-top: 30px;
   /* line-height: 1.8; */
+  margin-top: 50px;
 }
-.card-blog-1 .smaller-line-height {
+.card-blog-1 .smaller-line-height-1 {
   line-height: 1.5; /* Reduce line height for the Year of Completion and CGPA lines */
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.card-blog-1 .smaller-line-height-2 {
+  line-height: 0.8; /* Reduce line height for the Year of Completion and CGPA lines */
+  text-align: justify;
+  margin-top: -10px;
 }
 
 .card-blog-1 .card-description strong{
@@ -1427,6 +1436,29 @@ a:hover {
   display: inline-block;
   float: right;
 }
+
+
+/* CSS for Buttons */
+.button {
+  display: inline-block;
+  padding: 2px 4px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Container for Buttons */
+.buttons-container {
+  margin-top: 10px;
+  text-align: center;
+}
+
 
 
 /*--------------------------------------------------------------
