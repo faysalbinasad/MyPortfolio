@@ -782,9 +782,6 @@ a:hover {
   margin-top: 500px; /* Adjust the value as needed to move the text down */
 }
 
-.hero-subtitle {
-  margin-top: 500px; /* Adjust the value as needed to move the text down */
-}
 
 /* Import the Google Font */
 @import url("https://fonts.googleapis.com/css?family=Font+Name");
@@ -799,21 +796,21 @@ a:hover {
 
 .hero .hero-title {
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 3rem;
-  text-align: left;
+  /* text-align: left; */
 }
 
 @media (min-width: 768px) {
   .hero .hero-title {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
   }
 }
 
 .hero .hero-subtitle {
-  font-size: 1rem;
-  font-weight: 600;
-  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 450;
+  /* text-align: left; */
 }
 
 @media (min-width: 768px) {
@@ -875,8 +872,26 @@ a:hover {
 }
 
 .about-mf .about-img img {
-  margin-left: 10px;
+  margin-left: 160px;
 }
+
+.about-mf .about-info {
+  margin-top: 2rem; /* Add margin to match image margin */
+}
+
+.about-mf .about-info p {
+  margin-left: 160px; /* Match the margin-left of the image */
+}
+
+
+.about-mf .about-info p {
+  display: flex; /* Use flexbox to allow items to wrap */
+}
+
+.about-mf .about-info p span {
+  white-space: nowrap; /* Prevent text from wrapping within a single span */
+}
+
 
 @media (min-width: 767px) {
   .about-mf .box-pl2 {
