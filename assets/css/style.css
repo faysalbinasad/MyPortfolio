@@ -239,29 +239,25 @@ a:hover {
   transition: all 500ms ease;
 }
 
-
 /* GitHub */
 .socials a[href*="github.com"] .bi-github {
-  color: #211F1F; /* Actual GitHub logo color */
+  color: #211f1f; /* Actual GitHub logo color */
 }
 
 /* Skype */
 .socials a[href*="skype.com"] .bi-skype {
-  color: #00AFF0; /* Actual Skype logo color */
+  color: #00aff0; /* Actual Skype logo color */
 }
 
 /* LinkedIn */
 .socials a[href*="linkedin.com"] .bi-linkedin {
-  color: #0077B5; /* Actual LinkedIn logo color */
+  color: #0077b5; /* Actual LinkedIn logo color */
 }
 
 /* WhatsApp */
 .socials a[href*="wa.me"] .bi-whatsapp {
-  color: #25D366; /* Actual WhatsApp logo color */
+  color: #25d366; /* Actual WhatsApp logo color */
 }
-
-
-
 
 /*------/ Ul resect /------*/
 .ul-resect,
@@ -324,7 +320,7 @@ a:hover {
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-  background-color: #1B1B1B;
+  background-color: #1b1b1b;
   width: 25px;
 }
 
@@ -522,7 +518,7 @@ a:hover {
   position: relative;
 }
 
-.navbar>ul>li {
+.navbar > ul > li {
   white-space: nowrap;
   padding: 10px 0 10px 30px;
 }
@@ -550,7 +546,7 @@ a:hover {
   margin-left: 5px;
 }
 
-.navbar>ul>li>a:before {
+.navbar > ul > li > a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -564,7 +560,7 @@ a:hover {
 }
 
 .navbar a:hover:before,
-.navbar li:hover>a:before,
+.navbar li:hover > a:before,
 .navbar .active:before {
   visibility: visible;
   width: 80%;
@@ -573,7 +569,7 @@ a:hover {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover>a {
+.navbar li:hover > a {
   color: #fff;
 }
 
@@ -609,11 +605,11 @@ a:hover {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
+.navbar .dropdown ul li:hover > a {
   color: #0078ff;
 }
 
-.navbar .dropdown:hover>ul {
+.navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -625,7 +621,7 @@ a:hover {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover>ul {
+.navbar .dropdown .dropdown:hover > ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -637,7 +633,7 @@ a:hover {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover>ul {
+  .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
 }
@@ -695,12 +691,12 @@ a:hover {
   transition: 0.3s;
 }
 
-.navbar-mobile>ul>li {
+.navbar-mobile > ul > li {
   padding: 0;
 }
 
 .navbar-mobile a:hover:before,
-.navbar-mobile li:hover>a:before,
+.navbar-mobile li:hover > a:before,
 .navbar-mobile .active:before {
   visibility: hidden;
 }
@@ -714,7 +710,7 @@ a:hover {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover>a {
+.navbar-mobile li:hover > a {
   color: #0078ff;
 }
 
@@ -749,11 +745,11 @@ a:hover {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
+.navbar-mobile .dropdown ul li:hover > a {
   color: #0078ff;
 }
 
-.navbar-mobile .dropdown>.dropdown-active {
+.navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
 
@@ -782,21 +778,16 @@ a:hover {
   opacity: 0.9;
 }
 
-
-/* .hero-title-1 {
-  margin-top: 100px; /* Adjust the value as needed to move the text down */
-  /* margin-right: 658px; */
-}, */
 .hero-title {
   margin-top: 500px; /* Adjust the value as needed to move the text down */
-},
+}
+
 .hero-subtitle {
   margin-top: 500px; /* Adjust the value as needed to move the text down */
 }
 
-
 /* Import the Google Font */
-@import url('https://fonts.googleapis.com/css?family=Font+Name');
+@import url("https://fonts.googleapis.com/css?family=Font+Name");
 
 /* .hero .hero-title-1 {
   color: #ffffff;
@@ -870,7 +861,6 @@ a:hover {
 .hero-single .breadcrumb a {
   color: #fff;
 }
-
 
 /*--------------------------------------------------------------
 # About
@@ -1057,7 +1047,10 @@ a:hover {
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -1065,7 +1058,10 @@ a:hover {
   border: 1px solid #0078ff;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
   background-color: #0078ff;
 }
 
@@ -1088,7 +1084,7 @@ a:hover {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
 }
 
@@ -1262,7 +1258,7 @@ a:hover {
   margin-bottom: 0;
 }
 
-.php-email-form button[type=submit] {
+.php-email-form button[type="submit"] {
   background: #0078ff;
   border: 0;
   padding: 10px 24px;
@@ -1270,7 +1266,7 @@ a:hover {
   transition: 0.4s;
 }
 
-.php-email-form button[type=submit]:hover {
+.php-email-form button[type="submit"]:hover {
   background: #3393ff;
 }
 
@@ -1295,6 +1291,7 @@ a:hover {
 
 .card-blog .card-body {
   position: relative;
+  text-align: center;
 }
 
 .card-blog .card-category-box {
@@ -1332,6 +1329,12 @@ a:hover {
 
 .card-blog .card-description {
   color: #4e4e4e;
+
+  width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
 }
 
 .card-blog .post-author {
@@ -1348,20 +1351,23 @@ a:hover {
 # Blog End
 --------------------------------------------------------------*/
 
-
 /*--------------------------------------------------------------
 # Education Start
 --------------------------------------------------------------*/
+.card {
+  margin-bottom: 1rem !important;
+}
+
 @media (min-width: 767px) {
-  .card-blog-1 {
-    margin-bottom: 3rem;
+  .card {
+    margin-bottom: 1rem !important;
   }
 }
 
 .card-blog-1 .card-body {
   position: relative;
-   width: 300px; /* Set your desired fixed width */
-    height: 300px; /* Set your desired fixed height */
+  /* width: 300px;  */
+  height: 300px;
 }
 
 .card-blog-1 .card-category-box {
@@ -1382,9 +1388,7 @@ a:hover {
   background-color: #4c6dc9a1;
   border-radius: 4px;
   margin-top: 30px;
-  
 }
-
 
 .card-blog-1 .card-category .category {
   color: #110e0e;
@@ -1394,7 +1398,6 @@ a:hover {
   letter-spacing: 0.1px;
   margin-bottom: 0;
   font-weight: bold;
- 
 }
 
 .card-blog-1 .card-title {
@@ -1420,7 +1423,7 @@ a:hover {
   margin-top: -10px;
 }
 
-.card-blog-1 .card-description strong{
+.card-blog-1 .card-description strong {
   font-weight: bold;
 }
 
@@ -1439,6 +1442,13 @@ a:hover {
   color: #4e4e4e;
   display: inline-block;
   float: right;
+}
+
+.blog-mf .card-blog img {
+  height: 150px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
 }
 
 /* Button Section Start */
@@ -1475,11 +1485,10 @@ a:hover {
 }
 
 /* Container for Buttons */
-.buttons-container-buet{
+.buttons-container-buet {
   margin-top: 10px;
   text-align: center;
 }
-
 
 /* CSS for Buttons (BRACU) */
 
@@ -1508,7 +1517,8 @@ a:hover {
   color: #fff;
 }
 
-.button-bracu-certificate:hover { /* Fixed the class name here */
+.button-bracu-certificate:hover {
+  /* Fixed the class name here */
   background-color: #e74809;
   color: #fff;
 }
@@ -1546,7 +1556,8 @@ a:hover {
   color: #fff;
 }
 
-.button-gdc-certificate:hover { /* Fixed the class name here */
+.button-gdc-certificate:hover {
+  /* Fixed the class name here */
   background-color: #e74809;
   color: #fff;
 }
@@ -1584,7 +1595,8 @@ a:hover {
   color: #fff;
 }
 
-.button-kgbhs-certificate:hover { /* Fixed the class name here */
+.button-kgbhs-certificate:hover {
+  /* Fixed the class name here */
   background-color: #e74809;
   color: #fff;
 }
@@ -1595,16 +1607,15 @@ a:hover {
   text-align: center;
 }
 
-
-
-
+#education .card-body {
+  height: 250px;
+}
 
 /* Button Section ENd */
 
 /*--------------------------------------------------------------
 # Education End
 --------------------------------------------------------------*/
-
 /*--------------------------------------------------------------
 # Blog Single
 --------------------------------------------------------------*/
@@ -1618,7 +1629,6 @@ a:hover {
 }
 
 @media (min-width: 768px) {
-
   .post-box,
   .form-comments,
   .box-comments,
