@@ -54,7 +54,16 @@
       </nav><!-- .navbar -->
 
     </div>
-  </header><!-- End Header -->
+  </header>
+  
+  <script>
+    window.addEventListener('load', function() {
+      // Smooth scroll to the home section when the page is loaded
+      document.querySelector('#hero').scrollIntoView({ behavior: 'smooth' });
+    });
+  </script>
+  
+  <!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
   <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/ABCD2.png)">
