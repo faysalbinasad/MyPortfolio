@@ -804,17 +804,30 @@ a:hover {
   text-align: center; /* Center the text horizontally */
   margin-top: 300px; /* Adjust the top margin to move the text up slightly */
   margin-right: 10px;
-  animation: glow 1.5s ease-in-out infinite alternate; /* Apply animation */
+  animation: flicker 1.5s infinite alternate, glow 1.5s ease-in-out infinite alternate; /* Apply animation */
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 0.7; /* Start with slightly reduced opacity */
+  }
+  100% {
+    opacity: 1; /* End with full opacity */
+  }
 }
 
 @keyframes glow {
   0% {
-    text-shadow: 0 0 10px #00000000; /* Start with a small glow effect */
+    text-shadow: 0 0 10px #00000000; /* Start with no glow effect */
+  }
+  50% {
+    text-shadow: 0 0 20px #ff6a00, 0 0 30px #ff6a00, 0 0 40px #ff6a00, 0 0 50px #ff6a00; /* Middle with orange glow */
   }
   100% {
-    text-shadow: 0 0 20px #0580d2, 0 0 30px #0580d2, 0 0 40px #0580d2, 0 0 50px #0580d2; /* End with a larger glow effect */
+    text-shadow: 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000; /* End with red glow */
   }
 }
+
 
 
 
