@@ -800,7 +800,7 @@ a:hover {
   color: #ffffff;
   font-weight: 700;
   font-size: 3rem;
-  font-family: "Luckiest Guy", cursive; /* Change the font style */
+  font-family: "Luckiest Guy", cursive, Arial, sans-serif; /* Change the font style */
   text-align: center; /* Center the text horizontally */
   margin-top: 300px; /* Adjust the top margin to move the text up slightly */
   margin-right: 10px;
