@@ -470,6 +470,7 @@ a:hover {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+
 #header {
   transition: all 0.5s;
   z-index: 997;
@@ -799,8 +800,24 @@ a:hover {
   color: #ffffff;
   font-weight: 700;
   font-size: 3rem;
-  /* text-align: left; */
+  font-family: "Luckiest Guy", cursive; /* Change the font style */
+  text-align: center; /* Center the text horizontally */
+  margin-top: 120px; /* Adjust the top margin to move the text up slightly */
+  margin-right: -80px;
+  animation: glow 1.5s ease-in-out infinite alternate; /* Apply animation */
 }
+
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 10px #00000000; /* Start with a small glow effect */
+  }
+  100% {
+    text-shadow: 0 0 20px #0580d2, 0 0 30px #0580d2, 0 0 40px #0580d2, 0 0 50px #0580d2; /* End with a larger glow effect */
+  }
+}
+
+
+
 
 @media (min-width: 768px) {
   .hero .hero-title {
