@@ -784,7 +784,6 @@ a:hover {
   margin-top: 500px; /* Adjust the value as needed to move the text down */
 }
 
-
 /* Import the Google Font */
 @import url("https://fonts.googleapis.com/css?family=Font+Name");
 
@@ -804,7 +803,8 @@ a:hover {
   text-align: center; /* Center the text horizontally */
   margin-top: 300px; /* Adjust the top margin to move the text up slightly */
   margin-right: 10px;
-  animation: flicker 1.5s infinite alternate, glow 1.5s ease-in-out infinite alternate; /* Apply animation */
+  animation: flicker 1.5s infinite alternate,
+    glow 1.5s ease-in-out infinite alternate; /* Apply animation */
 }
 
 @keyframes flicker {
@@ -821,16 +821,14 @@ a:hover {
     text-shadow: 0 0 10px #00000000; /* Start with no glow effect */
   }
   50% {
-    text-shadow: 0 0 20px #ff6a00, 0 0 30px #ff6a00, 0 0 40px #ff6a00, 0 0 50px #ff6a00; /* Middle with orange glow */
+    text-shadow: 0 0 20px #ff6a00, 0 0 30px #ff6a00, 0 0 40px #ff6a00,
+      0 0 50px #ff6a00; /* Middle with orange glow */
   }
   100% {
-    text-shadow: 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000; /* End with red glow */
+    text-shadow: 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000,
+      0 0 50px #ff0000; /* End with red glow */
   }
 }
-
-
-
-
 
 @media (min-width: 768px) {
   .hero .hero-title {
@@ -894,13 +892,17 @@ a:hover {
 # About
 --------------------------------------------------------------*/
 
-
 @keyframes blink {
-  0% { opacity: 1; }
-  50% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-
 
 .about-mf .box-shadow-full {
   padding-top: 4rem;
@@ -912,7 +914,7 @@ a:hover {
 }
 
 .about-mf .about-img img {
-  margin-left: 160px;
+  /* margin-left: 160px; */
 }
 
 .about-mf .about-info {
@@ -920,9 +922,8 @@ a:hover {
 }
 
 .about-mf .about-info p {
-  margin-left: 160px; /* Match the margin-left of the image */
+  /* margin-left: 160px; */
 }
-
 
 .about-mf .about-info p {
   display: flex; /* Use flexbox to allow items to wrap */
@@ -931,7 +932,6 @@ a:hover {
 .about-mf .about-info p span {
   white-space: nowrap; /* Prevent text from wrapping within a single span */
 }
-
 
 @media (min-width: 767px) {
   .about-mf .box-pl2 {
@@ -1410,6 +1410,7 @@ a:hover {
 # Education Start
 --------------------------------------------------------------*/
 .card {
+  padding: 20px;
   margin-bottom: 1rem !important;
 }
 
@@ -1500,8 +1501,9 @@ a:hover {
 }
 
 .blog-mf .card-blog img {
+  width: 150px;
   height: 150px;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
   margin: 0 auto;
 }
@@ -1845,4 +1847,9 @@ footer .credits {
 
 footer .credits a {
   color: #fff;
+}
+
+#education .card-img .img-fluid {
+  height: 200px;
+  object-fit: contain;
 }
