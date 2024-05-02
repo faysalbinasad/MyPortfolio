@@ -821,8 +821,8 @@ a:hover {
     text-shadow: 0 0 10px #00000000; /* Start with no glow effect */
   }
   50% {
-    text-shadow: 0 0 20px #ff6a00, 0 0 30px #ff6a00, 0 0 40px #ff6a00,
-      0 0 50px #ff6a00; /* Middle with orange glow */
+    text-shadow: 0 0 20px #09958e, 0 0 30px #09958e, 0 0 40px #09958e,
+      0 0 50px #09958e; /* Middle with orange glow */
   }
   100% {
     text-shadow: 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000,
